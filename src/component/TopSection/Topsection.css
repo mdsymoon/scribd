@@ -1,4 +1,4 @@
-.HomePage{
+.topSection{
     background-image: linear-gradient(to right, #02283D, hsla(240, 10%, 94%, 0)),url(../../images/homePage-top-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width:640px){
-    .HomePage{
+    .topSection{
         align-items: flex-end;
         justify-content: center;
         background-image:linear-gradient(to top, #01141f, hsla(240, 10%, 94%, 0)), url(../../images/homePage-top-banner.jpg);

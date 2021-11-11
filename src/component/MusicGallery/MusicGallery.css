@@ -1,0 +1,17 @@
+.MusicGallery{
+    background: #5A1D41;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.imgContainer{
+    max-width: 876px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 40px auto;
+
+}
