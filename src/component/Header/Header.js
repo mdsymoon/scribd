@@ -1,11 +1,24 @@
-import React from 'react';
-import Navigation from './../Navigation/Navigation';
+import { Drawer } from "@mui/material";
+import React, { useState } from "react";
+import DrawerContainer from "../DrawerContainer/DrawerContainer";
+import Navigation from "./../Navigation/Navigation";
 const Header = () => {
-    return (
-        <div>
-            <Navigation/>
-        </div>
-    );
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
+  return (
+    <div>
+      <Navigation setDrawerOpen={setDrawerOpen} />
+
+      {/* navigation drawer */}
+      <Drawer
+        anchor="left"
+        open={drawerOpen}
+        onClose={() => setDrawerOpen(false)}
+      >
+          <DrawerContainer setDrawerOpen={setDrawerOpen}/>
+      </Drawer>
+    </div>
+  );
 };
 
 export default Header;

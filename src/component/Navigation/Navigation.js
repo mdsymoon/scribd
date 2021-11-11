@@ -3,12 +3,13 @@ import { AppBar, Box, Toolbar, Typography, Button } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 
-const Navigation = () => {
+const Navigation = ({setDrawerOpen}) => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{backgroundColor:'#00293F'}}>
         <Toolbar>
           <IconButton
+            onClick={() => setDrawerOpen(true)}
             size="large"
             edge="start"
             color="inherit"
