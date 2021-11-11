@@ -9,10 +9,12 @@ const Service = () => {
         <div className="row text-center mt-5">
         {
             serviceData.map((item) => {
-                return <div className="col-sm-6 col-md-4 col-lg-2" >
+                return (
+                <div className="col-6 col-md-4 col-lg-2">
                     {item.icon}
                     <p className="fs-5">{item.title}</p>
                  </div>
+                )
             })
         }
         </div>
