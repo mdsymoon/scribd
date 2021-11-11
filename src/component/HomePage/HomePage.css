@@ -7,5 +7,13 @@
     height: 600px;
     display: flex;
     align-items: center;
-   
+}
+
+@media screen and (max-width:640px){
+    .HomePage{
+        align-items: flex-end;
+        justify-content: center;
+        background-image:linear-gradient(to top, #01141f, hsla(240, 10%, 94%, 0)), url(../../images/homePage-top-banner.jpg);
+        background-position: top right;
+    }
 }
