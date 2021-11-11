@@ -16,4 +16,7 @@
         background-image:linear-gradient(to top, #01141f, hsla(240, 10%, 94%, 0)), url(../../images/homePage-top-banner.jpg);
         background-position: top right;
     }
+    .topSection > div > button {
+        width: 100%;
+    }
 }

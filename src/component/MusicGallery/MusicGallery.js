@@ -22,29 +22,33 @@ const MusicGallery = () => {
   return (
     <main>
       <div className="MusicGallery">
-        <h2 className="text-white text-center mb-0">
-          THE BEST BOOKS AND AUDIOBOOKS ARE WAITING FOR YOU
-        </h2>
-        <div className="imgContainer">
-          <img src={galleryImg1} alt="" />
-          <img src={galleryImg2} alt="" />
-          <img src={galleryImg3} alt="" />
-          <img src={galleryImg4} alt="" />
-          <img src={galleryImg5} alt="" />
-          <img src={galleryImg6} alt="" />
-          <img src={galleryImg7} alt="" />
-          <img src={galleryImg8} alt="" />
-          <img src={galleryImg9} alt="" />
-          <img src={galleryImg10} alt="" />
-          <img src={galleryImg11} alt="" />
+        <div className="container">
+          <div className="d-flex flex-column justify-content-center">
+            <h2 className="text-white text-center mb-0">
+              THE BEST BOOKS AND AUDIOBOOKS ARE WAITING FOR YOU
+            </h2>
+            <div className="imgContainer">
+              <img src={galleryImg1} alt="" />
+              <img src={galleryImg2} alt="" />
+              <img src={galleryImg3} alt="" />
+              <img src={galleryImg4} alt="" />
+              <img src={galleryImg5} alt="" />
+              <img src={galleryImg6} alt="" />
+              <img src={galleryImg7} alt="" />
+              <img src={galleryImg8} alt="" />
+              <img src={galleryImg9} alt="" />
+              <img src={galleryImg10} alt="" />
+              <img src={galleryImg11} alt="" />
+            </div>
+            <button
+              type="button"
+              className="btn btn-info text-white fw-bold mx-auto"
+            >
+              Read Free for 30 days
+            </button>
+            <p className="text-white text-center mt-3">Cancel anytime.</p>
+          </div>
         </div>
-        <button
-          type="button"
-          className="btn btn-info text-white fw-bold mx-auto"
-        >
-          Read Free for 30 days
-        </button>
-        <p className="text-white text-center mt-3">Cancel anytime.</p>
       </div>
       <div>
         <p className="text-center my-2">IN THE PRESS</p>

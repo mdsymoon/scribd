@@ -1,11 +1,8 @@
 .MusicGallery{
     background: #5A1D41;
     padding: 50px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
+}
 
 .imgContainer{
     max-width: 876px;
@@ -14,4 +11,32 @@
     flex-wrap: wrap;
     margin: 40px auto;
 
+}
+
+
+@media (max-width: 640px) {
+    .imgContainer img:nth-child(5){
+        display: none;
+    }
+    .imgContainer img:nth-child(6){
+        display: none;
+    }
+    .imgContainer img:nth-child(7){
+        display: none;
+    }
+    .imgContainer img:nth-child(8){
+        display: none;
+    }
+    .imgContainer img:nth-child(9){
+        display: none;
+    }
+    .imgContainer img:nth-child(10){
+        display: none;
+    }
+    .imgContainer img:nth-child(11){
+        display: none;
+    }
+    .MusicGallery > div > div >  button {
+        width: 100%;
+    }
 }

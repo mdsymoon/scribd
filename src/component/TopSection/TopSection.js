@@ -1,10 +1,10 @@
-import React from 'react';
-import './Topsection.css';
+import React from "react";
+import "./Topsection.css";
 
 const TopSection = () => {
-    return (
-        <div className="topSection">
-        <div className="container">
+  return (
+    <div className="topSection">
+      <div className="container">
         <h1 className="display-4 fw-bold">
           Endless entertainment
           <br />
@@ -15,9 +15,9 @@ const TopSection = () => {
           Read free for 30 days
         </button>
         <p>Only $8.99/month after. Cancel anytime.</p>
-        </div>
       </div>
-    );
+    </div>
+  );
 };
 
 export default TopSection;
