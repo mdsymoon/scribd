@@ -1,0 +1,11 @@
+.HomePage{
+    background-image: linear-gradient(to right, #02283D, hsla(240, 10%, 94%, 0)),url(../../images/homePage-top-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: white;
+    height: 600px;
+    display: flex;
+    align-items: center;
+   
+}

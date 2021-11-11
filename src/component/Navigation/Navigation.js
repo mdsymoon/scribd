@@ -6,7 +6,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 const Navigation = ({setDrawerOpen}) => {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{backgroundColor:'#00293F'}}>
+      <AppBar position="fixed" sx={{backgroundColor:'#00293F'}}>
         <Toolbar>
           <IconButton
             onClick={() => setDrawerOpen(true)}
